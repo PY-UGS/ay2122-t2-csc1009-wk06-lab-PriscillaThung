@@ -36,18 +36,6 @@ public class Week6 {
         int testInt = (int) (Math.random()* multiplier + adder);
         System.out.println("Value to test: " + testInt);
         System.out.println("Index at: " + newList.CheckForData(testInt));
-        
-        HashMap<Integer, Integer> myHashMap = new HashMap<Integer, Integer>();
-
-        myHashMap.put(0,1);
-        myHashMap.put(1,3);
-        myHashMap.put(2,5);
-        myHashMap.put(3,7);
-        myHashMap.put(4,9);
-        myHashMap.put(5,11);
-        System.out.println("Hash map before insert: " + myHashMap);
-        insert(myHashMap, 6);
-        System.out.println("Hash map after insert: " + myHashMap);
 
 
     }
